@@ -1,0 +1,15 @@
+# DeathSound configuration
+# You can edit this file and run /deathsound reload, or use the in-game commands.
+
+# Which death sound to play: "warden" or "wither"
+sound: warden
+
+# Pitch of the sound. Allowed range is 0.5 (deep/slow) to 2.0 (high/fast). 1.0 = normal.
+pitch: 1.0
+
+# Volume of the sound (0.1 and up). 1.0 = normal.
+volume: 1.0
+
+# true  = every online player hears the sound when someone dies
+# false = only players near the death location hear it
+play-for-everyone: true
